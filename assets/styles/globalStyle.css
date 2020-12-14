@@ -1,0 +1,20 @@
+* {
+	border: 0;
+	padding: 0;
+	box-sizing: border-box;
+}
+
+html {
+	font-size: 62.5%;
+}
+
+*,
+input,
+button {
+	font-family: 'Avenir-Heavy', sans-serif;
+}
+
+body {
+	background: #1a1d29;
+	overflow-x: hidden;
+}
