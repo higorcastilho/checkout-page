@@ -1,3 +1,3 @@
 <h1 align="center">
-   <img src="assets/images/checkout-page.png" alt="" width="204" height="362">
+   <img src="assets/images/checkout-page.png" alt="" width="254" height="450">
 </h1>
