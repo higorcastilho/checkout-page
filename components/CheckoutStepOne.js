@@ -4,7 +4,7 @@ stepOneTemplate.innerHTML = `
 		#checkout-main {
 			color: #CACACA;
 			padding: 0 1.5rem;
-			width: 38rem;
+			width: 33.5rem;
 			margin: 0rem auto;
 			display: flex;
 			flex-direction: column;
@@ -17,8 +17,8 @@ stepOneTemplate.innerHTML = `
 		}
 
 		#checkout-main > input {
-			width: 35rem;
-			height: 4.6rem;
+			width: 30.9rem;
+			height: 3.2rem;
 			padding: .9rem 1.2rem;
 			border: .1rem;
 			border-radius: .2rem;
@@ -44,8 +44,8 @@ stepOneTemplate.innerHTML = `
 		}
 
 		#checkout-article {
-			width: 35.1rem;
-			height: 24.3rem;
+			width: 33.5rem;
+			height: 22.7rem;
 			background: #31343f;
 			margin: 0 auto;
 			padding: .8rem;
