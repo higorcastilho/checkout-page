@@ -17,4 +17,6 @@ button {
 body {
 	background: #1a1d29;
 	overflow-x: hidden;
+	margin: 0;
+	border: 0;
 }
