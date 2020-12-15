@@ -24,7 +24,6 @@ footerTemplate.innerHTML = `
 class CheckoutFooter extends HTMLElement {
 	constructor () {
 		super()
-
 		this.attachShadow({ mode: 'open' })
 		this.shadowRoot.appendChild(footerTemplate.content.cloneNode(true))
 	}
