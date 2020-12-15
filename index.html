@@ -13,12 +13,10 @@
 </head>
 <body>
 	<div id="checkout-container">
-		<header id="checkout-header">
-			<section><p>Entrar</p></section>
-			<section><img src="assets/images/disney_logo.svg"/></section>
-		</header>
+
+		<checkout-header></checkout-header>
+		
 		<main id="checkout-main">
-			<p>PASSO 1 DE 4</p>
 			<h3>Digite o seu e-mail (Clone)</h3>
 			<input placeholder="E-mail" />
 			<section>
@@ -41,9 +39,12 @@
 			</p>
 			<button>CONTINUAR</button>
 		</article>
-		<footer id="checkout-footer">
-			<img src="assets/images/disney_logo.svg"/>
-		</footer>
+		
+		<checkout-footer></checkout-footer>
+
 	</div>
+
+	<script type="text/javascript" src="components/CheckoutHeader.js"></script>
+	<script type="text/javascript" src="components/CheckoutFooter.js"></script>
 </body>
 </html>
