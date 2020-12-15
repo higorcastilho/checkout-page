@@ -8,5 +8,5 @@
 #Desktop
 
 <h2 align="center">
-   <img src="assets/images/checkout-page-desktop.png" alt="" width="1440" height="800">
+   <img src="assets/images/checkout-page-desktop.png" alt="" width="1440" height="600">
 </h2>
