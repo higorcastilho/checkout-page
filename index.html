@@ -8,18 +8,37 @@
 	<title>Assinatura | Disney+</title>
 </head>
 <body>
+
+
 	<div id="checkout-container">
 
 		<checkout-header></checkout-header>
-		
-		<checkout-step-one></checkout-step-one>
-		
+		<animatable-component autoplay animation="fadeInLeft" easing="ease-in" duration="350">
+			<section id="steps-wrapper">
+				
+			</section>
+			<button id="btn-test">Click</button>
+		</animatable-component>
 		<checkout-footer></checkout-footer>
 
 	</div>
 
+
+	<script type="text/javascript">
+		let stepsWrapper = document.getElementById("steps-wrapper")
+		let btn = document.getElementById("btn-test")
+		const stepOne = document.createElement("checkout-step-one")
+		btn.addEventListener('click', () => {
+			stepsWrapper.appendChild(stepOne)
+		})
+	</script>
+
 	<script type="text/javascript" src="components/CheckoutHeader.js"></script>
 	<script type="text/javascript" src="components/CheckoutFooter.js"></script>
 	<script type="text/javascript" src="components/CheckoutStepOne.js"></script>
+	<!-- Add Web Animations Polyfill -->
+	<script src="https://cdnjs.cloudflare.com/ajax/libs/web-animations/2.3.2/web-animations.min.js"></script>
+	<script type="module" src="https://unpkg.com/@proyecto26/animatable-component@1.0.0/dist/animatable-component/animatable-component.esm.js"></script>
+	<script nomodule="" src="https://unpkg.com/@proyecto26/animatable-component@1.0.0/dist/animatable-component/animatable-component.js"></script>
 </body>
 </html>

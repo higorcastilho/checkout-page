@@ -1,6 +1,17 @@
 const stepOneTemplate = document.createElement('template')
 stepOneTemplate.innerHTML = `
 	<style>
+		@keyframes slide {
+			from {
+				top: 0px;
+				opacity: 1;
+			}
+			to {
+				top: 200px;
+				opacity: 0;
+			}
+		}
+
 		#checkout-main {
 			color: #CACACA;
 			padding: 0 1.5rem;
@@ -77,6 +88,7 @@ stepOneTemplate.innerHTML = `
 			border-radius: .3rem;
 			border: none
 		}
+
 	</style>
 	<main id="checkout-main">
 		<h3>Digite o seu e-mail (Clone)</h3>
